@@ -1,0 +1,110 @@
+.containerWrapper{
+    height: 100dvh;
+    width: 98dvw;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.523);
+}
+.firstHeaderBoxWrapper{
+    height: 43dvh;
+    width: 95dvw;
+    background-color: rgba(255, 217, 119, 1);
+    border-radius: 15px;
+    margin: 1% 0%;
+    padding: 1%;
+}
+.firstHeaderBoxBody{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+.firstHeaderBoxBody > .imgWrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstHeaderBoxBodyText{
+    display: flex;
+    flex-direction: column;
+    gap: 2dvh;
+}
+.firstHeaderBoxBodyText > h1{
+    font-size: 8dvh;
+    color: rgba(24, 30, 75, 1);
+}
+.firstHeaderBoxBodyText > p{
+    color: rgba(94, 98, 130, 1);
+}
+.firstHeaderBoxBodyTextButton{
+    margin-top: 2dvh;
+    background-color: rgba(7, 23, 57, 1);
+    height: 12dvh;
+    width: 12dvw;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 4dvh;
+    font-family: "PT Serif", serif;
+}
+.secondHeaderBoxWrapper{
+    height: 40dvh;
+    width: 95dvw;
+    background-color: rgba(110, 152, 235, 1);
+    border-radius: 15px;
+    margin: 1% 0%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: none;
+    gap: 4dvw;
+    align-items: center;
+}
+.secondHeaderBoxWrapperInternalBox{
+    padding: 1dvh;
+    height: 30dvh;
+    width: 25dvw;
+    background-color: white;
+    border-radius: 18px;
+    padding: 4dvh;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    gap: 1dvh;
+}
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5dvh;
+    font-family: "PT Serif", serif;
+}
+.textWrapper > h3{
+    font-size: 3.5dvh;
+}
+.textWrapper > p {
+    color: rgba(0, 0, 0, 0.65);
+    text-wrap: pretty;
+    font-family: "Poppins",sans-serif;
+}
+.internalBoxButtons{
+    color: white;
+    background-color: rgba(7, 23, 57, 1);
+    border: none;
+    border-radius: 10px;
+    height: 5dvh;
+    width: 78%;
+    margin: 1dvh;
+    font-size: 2.8dvh;
+}
+.componentCategoryWrapper{
+    width: 95dvw;
+    height: 65dvh;
+    display: grid;
+    overflow: hidden;
+}
+.randomImgDivWrapper{
+    height: 80dvh;
+    width: 95dvw;
+    display: grid;
+    overflow: hidden;
+}

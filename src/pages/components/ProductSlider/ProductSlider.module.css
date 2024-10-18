@@ -1,0 +1,122 @@
+.ProductSliderWrapper {
+    width: 100%;
+    height: 60dvh;
+    background-color: rgba(217, 217, 217, 0.1);
+    padding: 1dvh;
+    position: relative;
+  }
+  
+  .titleWrapper > h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+  }
+  .rightArrow,
+  .leftArrow {
+    background-color: black;
+    color: white;
+    height: 7dvh;
+    width: 7dvh;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .rightArrow {
+    right: 20px;
+  }
+  
+  .leftArrow {
+    left: 0;
+  }
+  .productSliderConatiner {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+  }
+  .productBoxWrapper{
+      height: 100%;
+      width: 100%;
+      overflow-x: scroll;
+      display: grid;
+      gap: 3vw;
+      align-items: center;
+      scroll-behavior: smooth;
+      position: relative;
+      z-index: 3;
+  }
+  .productBoxWrapper::-webkit-scrollbar{
+      display: none;
+  }
+  .sliderBoxConatianer{
+      height: 55dvh;
+      width: 35dvh;
+      display: grid;
+      padding: 1.5dvh;
+      grid-template-columns: none;
+      grid-template-rows: 4fr 2fr 1fr;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      border: 1px solid rgba(128, 128, 128, 0.585);
+  }
+  .productImg{
+    display: flex;
+    justify-content: center;
+    height: 30dvh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .productImg > img {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .productDescription{
+    display: flex;
+    flex-direction: column;
+  }
+  .description{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2dvh;
+    font-weight: 600;
+  }
+  .productDescription > a {
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.1dvh;
+  }
+  .productActions{
+    display: flex;
+  }
+  .cartActionButtonWrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+  }
+  .cartActionButtonWrapper > button{
+    background-color: rgba(44, 26, 152, 0.85);
+    color: white;
+    border: none;
+    align-items: center;
+    display: flex;
+    border-radius: 35px;
+    height: 7dvh;
+    width: 8dvw;
+    font-size: 2dvh;
+    padding: 3%;
+    font-family: 'Poppins',sans-serif;
+  }
+  .wishlistActionWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
